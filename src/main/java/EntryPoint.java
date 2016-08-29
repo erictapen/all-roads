@@ -1,3 +1,4 @@
+import processing.core.PApplet;
 
 public abstract class EntryPoint {
 
@@ -5,7 +6,7 @@ public abstract class EntryPoint {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		PApplet.main("RouteDisplay", args);
 
 	}
 
